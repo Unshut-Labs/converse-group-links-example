@@ -48,7 +48,8 @@ You get back a link in the form `https://preview.converse.xyz/group/<groupLinkId
 #### Step 4: Open the Converse Group Link on a mobile phone that has Converse PREVIEW
 
 Here's the Testflight link for iOS : https://testflight.apple.com/join/70v1Rvv5
-Here's the IPA link for Android : ???
+
+Here's the IPA link for Android : [android-preview.apk](https://drive.google.com/file/d/1rUtCmtIB6VzHNW8PDJ1TMBRuI2OEOdcg/view?usp=drive_link)
 
 When the users open the link, they will see the group name and description + a button to ask to join the group. When the users click on the button, a query is made to the webhook you provided with the `walletAddress` and the `topic` of the group. Your code can then implement whatever logic to decide if the wallet can join the group or not.
 
