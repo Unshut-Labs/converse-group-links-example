@@ -7,9 +7,18 @@ app.use(express.json({ limit: "50mb" }));
 const port = process.env.PORT || 8080;
 
 const addWalletToConversation = async (walletAddress: string) => {
-  // Here you can put your logic to determine
-  // if the wallet should be allowed in group,
-  // add the user to the group, and return true if you did
+  // Implement your logic to determine if wallet should be added to group
+
+  // If the wallet should not be added, return false
+
+  // If the wallet shoud be added, add it to the group and return true! If
+  // you don't add the user to the group before returning true, the user
+  // will see an error in the app.
+
+  // To add the wallet to the group, you will need to call the XMTP Cli which is in Rust
+  // checkout https://replit.com/@neekolas/Groups-Nodejs-Client#src/index.ts for how to 
+  // do so from NodeJS
+
   return true;
 };
 

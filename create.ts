@@ -4,7 +4,7 @@ const CONVERSE_GROUP_LINK_ENDPOINT =
   "https://backend-staging.converse.xyz/api/groups/create";
 
 // Replace WEBHOOK with the endpoint that will receive the queries,
-// here for instance a local ngrok
+// here this is the express server in index.ts, using an ngrok tunnel
 const WEBHOOK =
   "https://fd3d-2a01-cb04-85e-2800-4de9-f91d-af10-967d.ngrok-free.app/webhook";
 
